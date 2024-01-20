@@ -9,6 +9,19 @@
 </head>
 
 <body>
+    <div id="captcha-container">
+        <img src="">
+        <div class="captcha">
+            <canvas id="captcha" width="200" height="50">
+            </canvas>
+            <button id="reload-captcha">Recarregar</button>
+        </div>
+        <div class="user">
+            <input type="text" id="captcha-input" placeholder="Digite o CAPTCHA">
+            <button id="check-captcha">Verificar</button>
+        </div>
+        <p id="captcha-status">Status</p>
+    </div>
 
     <script src="script.js"></script>
 </body>
